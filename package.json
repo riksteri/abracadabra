@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+		"build": "webpack --config webpack.config.js",
     "start": "npx webpack-dev-server --hot",
     "test": "yarn test:jest && yarn lint",
     "test:jest": "npx jest",
