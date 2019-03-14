@@ -5,6 +5,7 @@ image: Ubuntu1804
 build_script:
   - sh: >-
       yarn
+
       yarn build
 test_script:
   - sh: >-
